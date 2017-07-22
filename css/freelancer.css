@@ -21,7 +21,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #587699;
+  color: #	;
 }
 h1,
 h2,
@@ -138,6 +138,10 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+#nlink li a:active{
+	background:#587699;
+}
+
 .navbar-custom {
   background: #362959;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -160,6 +164,9 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li a {
   color: white;
 }
+.navbar-nav li a {
+  color: white;
+}
 .navbar-custom .navbar-nav li a:hover {
   color: #587699;
 }
@@ -171,12 +178,13 @@ header .intro-text .skills {
   color: white;
   background: #587699;
 }
-.navbar-custom .navbar-nav li.active a:hover,
+
+ .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
   background: #587699;
-}
+} 
 .navbar-custom .navbar-toggle {
   color: white;
   text-transform: uppercase;
