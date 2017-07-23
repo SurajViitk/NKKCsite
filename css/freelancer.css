@@ -23,6 +23,8 @@ a:active,
 a.active {
   color: #	;
 }
+
+
 h1,
 h2,
 h3,
@@ -236,18 +238,18 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#portfoli .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#portfoli .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+#portfoli .portfolio-item .portfolio-link .caption {
+  background: rgba(88, 118, 153, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -256,10 +258,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfoli .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#portfoli .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -269,18 +271,18 @@ section.success {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfoli .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfoli .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfoli .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#portfoli * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #portfoli .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -474,6 +476,10 @@ fieldset[disabled] .btn-success.active {
   height: 50px;
   border-radius: 100%;
   line-height: 28px;
+}
+.portfolio-modal{
+	opacity:0.4;
+
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
